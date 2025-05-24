@@ -1,42 +1,24 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
+# Python backend for club management
+__pycache__/
+*.py[cod]      # Python compiled files
+*$py.class
 *.so
+.Python
+env/
+.env           # Where database passwords are stored
+venv/          # Virtual environment for testing
+.venv
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# Teacher IDE settings
+.vscode/       # Ms. Rodriguez uses VS Code
+.idea/         # Mr. Chen uses PyCharm
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+# Local development & testing
+instance/
+.pytest_cache/
+.coverage      # Test coverage reports
+htmlcov/
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Sample payload files #
-#####################
-# These files are used for testing and should not be included in the repository
-.temp/**
+# Staff computer files
+.DS_Store      # For teachers with Macs
+Thumbs.db      # For teachers with Windows
